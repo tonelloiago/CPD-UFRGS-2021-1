@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/src/calculate_sequence.cpp.o"
   "CMakeFiles/main.dir/src/main.cpp.o"
+  "CMakeFiles/main.dir/src/main.cpp.o.d"
   "CMakeFiles/main.dir/src/process.cpp.o"
+  "CMakeFiles/main.dir/src/process.cpp.o.d"
   "CMakeFiles/main.dir/src/read_input_file.cpp.o"
+  "CMakeFiles/main.dir/src/read_input_file.cpp.o.d"
   "main"
   "main.pdb"
 )

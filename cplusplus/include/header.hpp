@@ -9,7 +9,7 @@
 
 using namespace std;
 
-void process_control(string file_path);
+void sorting(string file_path);
 void assert(int flag, string message);
 vector<int> calculate_sequence(int type_sequence, int array_size, vector<int> gaps);
 void shell_sort(int array[], int size, vector<int> gaps, int sequence, ofstream &out_file);
