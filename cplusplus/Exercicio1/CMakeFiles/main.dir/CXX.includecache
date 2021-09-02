@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tonelloiago/CPD-UFRGS-2021-1/cplusplus/Exercicio1/src/main.cpp
+header.hpp
+/home/tonelloiago/CPD-UFRGS-2021-1/cplusplus/Exercicio1/src/header.hpp
+
+/home/tonelloiago/CPD-UFRGS-2021-1/cplusplus/Exercicio1/src/read_input_file.cpp
+header.hpp
+/home/tonelloiago/CPD-UFRGS-2021-1/cplusplus/Exercicio1/src/header.hpp
+
+/home/tonelloiago/CPD-UFRGS-2021-1/cplusplus/Exercicio1/src/sorting.cpp
+header.hpp
+/home/tonelloiago/CPD-UFRGS-2021-1/cplusplus/Exercicio1/src/header.hpp
+algorithm
+-
+
+include/header.hpp
+iostream
+-
+ctime
+-
+fstream
+-
+vector
+-
+cmath
+-
+

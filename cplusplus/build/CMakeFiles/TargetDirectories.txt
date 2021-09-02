@@ -1,3 +1,0 @@
-/home/tonelloiago/CPD-UFRGS-2021-1/cplusplus/build/CMakeFiles/rebuild_cache.dir
-/home/tonelloiago/CPD-UFRGS-2021-1/cplusplus/build/CMakeFiles/edit_cache.dir
-/home/tonelloiago/CPD-UFRGS-2021-1/cplusplus/build/CMakeFiles/main.dir
