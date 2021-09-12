@@ -1,4 +1,14 @@
-#include "header.hpp"
+#include <iostream>
+#include <ctime>
+#include <fstream>
+#include <vector>
+
+#define SHELL 0
+#define KNUTH 1
+#define CIURA 2
+
+
+using namespace std;
 
 void assert(int flag, string message)
 {
@@ -26,7 +36,6 @@ void read_and_sort(string file_path)
         int i = 0;
 
         //Read line and get size/array
-        cout << "Lendo arquivo" << endl;
         while ((pos = line.find(delimiter)) != string::npos) {
             if (flag_first_element) {
                 //Read size

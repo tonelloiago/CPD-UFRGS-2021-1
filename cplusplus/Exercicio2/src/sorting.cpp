@@ -27,7 +27,6 @@ void shell_sort(int array[], int size, vector<int> gaps, int sequence, ofstream 
     out_file.open("saidas/saida2.txt", fstream::app);
     assert(out_file.is_open(), "Failed to open output file.");
 
-    cout << "Ordenando..." << endl;
     start_clock = clock();
 
     /*Shell Sort*/
@@ -47,11 +46,15 @@ void shell_sort(int array[], int size, vector<int> gaps, int sequence, ofstream 
 
     end_clock = clock();
 
-    cout << seq << "," << size << "," << (end_clock - start_clock)/(double)CLOCKS_PER_SEC << endl;
-    out_file << seq << "," << size << "," <<  (end_clock - start_clock)/(double)CLOCKS_PER_SEC << endl;
+    double duration = (end_clock - start_clock)/(double)CLOCKS_PER_SEC;
+
+    cout << fixed;//Removes scientific notation
+    out_file << fixed;
+
+    cout << seq << "," << size << "," << duration << endl;
+    out_file << seq << "," << size << "," <<  duration << endl;
     out_file.close();
 
-    cout << "Done!" << endl;
 }
 
 //Calculates sequence used by shell sort
@@ -60,8 +63,6 @@ vector<int> calculate_sequence(int type_sequence, int array_size, vector<int> ga
     int h = array_size;
     int i = 0;
     gaps.clear(); //Clear vector of gaps
-
-    cout << "Calculando gaps..." << endl;
 
     switch (type_sequence)
     {
